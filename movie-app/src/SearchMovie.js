@@ -30,7 +30,7 @@ export default function SearchMovie() {
           className="input"
           type="text"
           name="query"
-          placeholder="ie Jurassic Park"
+          placeholder="i.e. Harry Potter"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         ></input>
